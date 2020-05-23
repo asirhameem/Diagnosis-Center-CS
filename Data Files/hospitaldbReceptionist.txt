@@ -1,0 +1,43 @@
+id,name,username,password,age,address,sex,reference,phone
+R-0001,Asir Hamim,R-asir,123,21,Anderkilla,male      ,Salma,01521400829
+R-0002,Hamim Kane,R-Kane,123,22,Rajapukur Lane,Male      ,Salma Banu,015214100420
+R-0003,Asir,R-tazin,123,21,Cantonment,Male      ,Hamim,015595262626
+R-0004,Salma ,R-Tazin,123,21,Textile,Female    ,Hamim,0185151999112
+R-0005,hamim bhai,R-salma,123,23,asdasd,Female    ,asdasasa,01251254252214
+R-0006,asdas,asdfasd,asdfasdf,21,asdfasd,Male      ,asdf,0125155
+R-0007,asdfasd,asdas,asdf,21,asdfasd,Male      ,asdfas,65+65+
+R-0008,asdfa,asdfa,asdfas,12,asdfasd,Male      ,asdfasasdas,asdfaasd
+R-0009,Rifat,R-rifat,123,23,asdfasd,Female    ,ja,123123123
+R-0010,rafi,R-rafi,123,23,23sdafdfa,Male      ,asdasd,32113302.0.62
+
+
+
+
+SCRIPT
+****************************************************
+
+USE [hospital management]
+GO
+
+/****** Object:  Table [dbo].[receptionist]    Script Date: 13/5/2020 11:34:49 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[receptionist](
+	[id] [nvarchar](50) NOT NULL,
+	[name] [nvarchar](50) NOT NULL,
+	[username] [nvarchar](50) NOT NULL,
+	[password] [nvarchar](50) NOT NULL,
+	[age] [numeric](18, 0) NOT NULL,
+	[address] [nvarchar](50) NOT NULL,
+	[sex] [nchar](10) NOT NULL,
+	[reference] [nvarchar](50) NOT NULL,
+	[phone] [nvarchar](20) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+

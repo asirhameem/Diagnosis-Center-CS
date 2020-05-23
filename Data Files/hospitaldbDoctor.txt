@@ -1,0 +1,42 @@
+id,name,age,sex,reference,address,phone,speciality,username,password,available,time
+D-0001    ,Asir Hameem,23,male      ,salma,Anderkilla,123123,ENT,D-hamim,123,Thr,Fri,20:20:00.0000000
+D-0002    ,Umme Salma,23,Female    ,hamim,textile,+8801558919,Skin,D-tazin,456,Thr,Fri,10:30:00.0000000
+
+
+
+
+
+
+SCRIPT
+******************************
+
+
+
+USE [hospital management]
+GO
+
+/****** Object:  Table [dbo].[doctor]    Script Date: 13/5/2020 11:34:20 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[doctor](
+	[id] [nchar](10) NOT NULL,
+	[name] [nvarchar](50) NOT NULL,
+	[age] [numeric](18, 0) NOT NULL,
+	[sex] [nchar](10) NOT NULL,
+	[reference] [nvarchar](50) NOT NULL,
+	[address] [nvarchar](50) NOT NULL,
+	[phone] [nvarchar](50) NOT NULL,
+	[speciality] [nvarchar](50) NOT NULL,
+	[username] [nvarchar](50) NOT NULL,
+	[password] [nvarchar](50) NOT NULL,
+	[available] [nvarchar](50) NOT NULL,
+	[time] [time](7) NULL
+) ON [PRIMARY]
+
+GO
+
+

@@ -1,0 +1,28 @@
+id,name,price,date
+
+
+
+
+SCRIPT
+********************************
+
+USE [hospital management]
+GO
+
+/****** Object:  Table [dbo].[cart]    Script Date: 13/5/2020 11:33:31 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[cart](
+	[id] [nchar](10) NOT NULL,
+	[name] [nvarchar](50) NOT NULL,
+	[price] [numeric](18, 0) NOT NULL,
+	[date] [nvarchar](50) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+

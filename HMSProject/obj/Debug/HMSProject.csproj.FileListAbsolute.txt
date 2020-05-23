@@ -1,0 +1,48 @@
+F:\Visual studio\Hospital Management System\HMSProject\bin\Debug\HMSProject.exe.config
+F:\Visual studio\Hospital Management System\HMSProject\bin\Debug\HMSProject.exe
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.AdminDash.resources
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.DoctorDash.resources
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.ReciptionistDash.resources
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.Login.resources
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.Properties.Resources.resources
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.csproj.GenerateResource.Cache
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.exe
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.pdb
+F:\Visual studio\Hospital Management System\HMSProject\bin\Debug\HMSProject.pdb
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.csprojResolveAssemblyReference.cache
+F:\Visual studio\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.Appointment.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\bin\Debug\HMSProject.exe.config
+F:\Visual Studio 19\Hospital Management System\HMSProject\bin\Debug\HMSProject.exe
+F:\Visual Studio 19\Hospital Management System\HMSProject\bin\Debug\HMSProject.pdb
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.csprojAssemblyReference.cache
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.AdminDash.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.Appointment.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.DoctorDash.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.Login.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Properties.Resources.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.csproj.GenerateResource.cache
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.csproj.CoreCompileInputs.cache
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.exe
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.pdb
+F:\Visual Studio 19\Hospital Management System\HMSProject\bin\Debug\MetroFramework.Design.dll
+F:\Visual Studio 19\Hospital Management System\HMSProject\bin\Debug\MetroFramework.dll
+F:\Visual Studio 19\Hospital Management System\HMSProject\bin\Debug\MetroFramework.Fonts.dll
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.csproj.CopyComplete
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.ReceptionistDash.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.Test.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.Bill.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.UpdateAppoinment.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.UpdateTest.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.AddReceptionist.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.AddAdmin.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.AddDoctor.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.DoctorAppointment.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.DoctorTest.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.DoctorUpdateAppointment.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.DoctorAddAppointment.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.ManageAdmin.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.ManageDoctor.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.ManageReceptionist.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.ManageAppointment.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.ManageTest.resources
+F:\Visual Studio 19\Hospital Management System\HMSProject\obj\Debug\HMSProject.Application_Layer.Financials.resources

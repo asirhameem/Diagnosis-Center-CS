@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0FE69B9-16E1-4113-A277-2070D7B0206D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HMSProject</RootNamespace>
+    <AssemblyName>HMSProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application Layer\AddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AddAdmin.Designer.cs">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AddDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AddDoctor.Designer.cs">
+      <DependentUpon>AddDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AddReceptionist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AddReceptionist.Designer.cs">
+      <DependentUpon>AddReceptionist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\AdminDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\AdminDash.Designer.cs">
+      <DependentUpon>AdminDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\Appointment.Designer.cs">
+      <DependentUpon>Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\DoctorAddAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\DoctorAddAppointment.Designer.cs">
+      <DependentUpon>DoctorAddAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\DoctorAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\DoctorAppointment.Designer.cs">
+      <DependentUpon>DoctorAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\DoctorTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\DoctorTest.Designer.cs">
+      <DependentUpon>DoctorTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\DoctorUpdateAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\DoctorUpdateAppointment.Designer.cs">
+      <DependentUpon>DoctorUpdateAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\Financials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\Financials.Designer.cs">
+      <DependentUpon>Financials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\ManageAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\ManageAdmin.Designer.cs">
+      <DependentUpon>ManageAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\ManageAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\ManageAppointment.Designer.cs">
+      <DependentUpon>ManageAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\ManageDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\ManageDoctor.Designer.cs">
+      <DependentUpon>ManageDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\ManageReceptionist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\ManageReceptionist.Designer.cs">
+      <DependentUpon>ManageReceptionist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\ManageTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\ManageTest.Designer.cs">
+      <DependentUpon>ManageTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\UpdateAppoinment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\UpdateAppoinment.Designer.cs">
+      <DependentUpon>UpdateAppoinment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\DoctorDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\DoctorDash.Designer.cs">
+      <DependentUpon>DoctorDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\ReceptionistDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\ReceptionistDash.Designer.cs">
+      <DependentUpon>ReceptionistDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application Layer\UpdateTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Application Layer\UpdateTest.Designer.cs">
+      <DependentUpon>UpdateTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data layer\DataAccess.cs" />
+    <Compile Include="Entity Layer\AddAdminEntity.cs" />
+    <Compile Include="Entity Layer\AddDoctorEntity.cs" />
+    <Compile Include="Entity Layer\AddReceptionistEntity.cs" />
+    <Compile Include="Entity Layer\AdminDashEntity.cs" />
+    <Compile Include="Entity Layer\AppointmentEntity.cs" />
+    <Compile Include="Entity Layer\BillEntity.cs" />
+    <Compile Include="Entity Layer\DoctorAddAppEntity.cs" />
+    <Compile Include="Entity Layer\DoctorAppoinmentEntity.cs" />
+    <Compile Include="Entity Layer\DoctorDashEntity.cs" />
+    <Compile Include="Entity Layer\DoctorTestEntity.cs" />
+    <Compile Include="Entity Layer\DoctorUpdateAppEntity.cs" />
+    <Compile Include="Entity Layer\ManageAdminEntity.cs" />
+    <Compile Include="Entity Layer\ManageAppointmentEntity.cs" />
+    <Compile Include="Entity Layer\ManageDoctorEntity.cs" />
+    <Compile Include="Entity Layer\ManageReceptionistEntity.cs" />
+    <Compile Include="Entity Layer\ManageTestEntity.cs" />
+    <Compile Include="Entity Layer\ReceptionistEntity.cs" />
+    <Compile Include="Entity Layer\TestEntity.cs" />
+    <Compile Include="Entity Layer\UpdateAppointmentEntity.cs" />
+    <Compile Include="Entity Layer\UpdateTestEntity.cs" />
+    <Compile Include="Entity Layer\UserLoginEntity.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository Layer\AddAdminRepo.cs" />
+    <Compile Include="Repository Layer\AddDoctorRepo.cs" />
+    <Compile Include="Repository Layer\AddReceptionistRepo.cs" />
+    <Compile Include="Repository Layer\AdminDashRepo.cs" />
+    <Compile Include="Repository Layer\AppointmentRepo.cs" />
+    <Compile Include="Repository Layer\BillRepo.cs" />
+    <Compile Include="Repository Layer\DoctorAddAppRepo.cs" />
+    <Compile Include="Repository Layer\DoctorAppoinmentRepo.cs" />
+    <Compile Include="Repository Layer\DoctorDashRepo.cs" />
+    <Compile Include="Repository Layer\DoctorTestRepo.cs" />
+    <Compile Include="Repository Layer\DoctorUpdateAppRepo.cs" />
+    <Compile Include="Repository Layer\FinancialRepo.cs" />
+    <Compile Include="Repository Layer\ManageAdminRepo.cs" />
+    <Compile Include="Repository Layer\ManageAppointmentRepo.cs" />
+    <Compile Include="Repository Layer\ManageDoctorRepo.cs" />
+    <Compile Include="Repository Layer\ManageReceptionistRepo.cs" />
+    <Compile Include="Repository Layer\ManageTestRepo.cs" />
+    <Compile Include="Repository Layer\ReceptionistRepo.cs" />
+    <Compile Include="Repository Layer\TestRepo.cs" />
+    <Compile Include="Repository Layer\UpdateAppointmentRepo.cs" />
+    <Compile Include="Repository Layer\UpdateTestRepo.cs" />
+    <Compile Include="Repository Layer\UserLoginRepo.cs" />
+    <Compile Include="Validation Layer\Validation.cs" />
+    <EmbeddedResource Include="Application Layer\AddAdmin.resx">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\AddDoctor.resx">
+      <DependentUpon>AddDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\AddReceptionist.resx">
+      <DependentUpon>AddReceptionist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\AdminDash.resx">
+      <DependentUpon>AdminDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\Appointment.resx">
+      <DependentUpon>Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\DoctorAddAppointment.resx">
+      <DependentUpon>DoctorAddAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\DoctorAppointment.resx">
+      <DependentUpon>DoctorAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\DoctorTest.resx">
+      <DependentUpon>DoctorTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\DoctorUpdateAppointment.resx">
+      <DependentUpon>DoctorUpdateAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\Financials.resx">
+      <DependentUpon>Financials.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\ManageAdmin.resx">
+      <DependentUpon>ManageAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\ManageAppointment.resx">
+      <DependentUpon>ManageAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\ManageDoctor.resx">
+      <DependentUpon>ManageDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\ManageReceptionist.resx">
+      <DependentUpon>ManageReceptionist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\ManageTest.resx">
+      <DependentUpon>ManageTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\UpdateAppoinment.resx">
+      <DependentUpon>UpdateAppoinment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\DoctorDash.resx">
+      <DependentUpon>DoctorDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\ReceptionistDash.resx">
+      <DependentUpon>ReceptionistDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application Layer\UpdateTest.resx">
+      <DependentUpon>UpdateTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

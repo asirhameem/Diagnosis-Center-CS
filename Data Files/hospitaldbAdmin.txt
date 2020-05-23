@@ -1,0 +1,36 @@
+id,name,age,sex,reference,address,phone,username,password
+A-0001    ,Bhai Shab,21,Male      ,Hamim,anderkilla,015512512512515,A-hamim,123
+A         ,Asir Hamim,21,Male      ,sdfsdf,qweqwe,1231231,A-asir,123
+A-0003    ,asir,32,Male      ,hamim,asdf,012555624,A-tazin,123
+
+
+*****************************************************
+
+
+SCRIPT
+
+USE [hospital management]
+GO
+
+/****** Object:  Table [dbo].[admin]    Script Date: 13/5/2020 11:32:05 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[admin](
+	[id] [nchar](10) NOT NULL,
+	[name] [nvarchar](50) NOT NULL,
+	[age] [numeric](18, 0) NOT NULL,
+	[sex] [nchar](10) NOT NULL,
+	[reference] [nvarchar](50) NOT NULL,
+	[address] [nvarchar](50) NOT NULL,
+	[phone] [nvarchar](50) NOT NULL,
+	[username] [nvarchar](50) NOT NULL,
+	[password] [nvarchar](50) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+

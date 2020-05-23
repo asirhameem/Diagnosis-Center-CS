@@ -1,0 +1,37 @@
+id,name,age,sex,reference,date,doctor,time
+P-0001    ,asdfjas2,234,Female    ,sdfasd,2020-05-11,Asir Hameem,23:44:22.0000000
+P-0002    ,asdfas,23,Male      ,asdf,2020-05-11,Asir Hameem,19:40:00.0000000
+
+
+
+
+
+*************************************************
+SCRIPT
+
+
+
+USE [hospital management]
+GO
+
+/****** Object:  Table [dbo].[appointment]    Script Date: 13/5/2020 11:32:56 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[appointment](
+	[id] [nchar](10) NOT NULL,
+	[name] [nvarchar](50) NOT NULL,
+	[age] [numeric](18, 0) NOT NULL,
+	[sex] [nchar](10) NOT NULL,
+	[reference] [nvarchar](50) NOT NULL,
+	[date] [nvarchar](50) NOT NULL,
+	[doctor] [nvarchar](50) NOT NULL,
+	[time] [time](7) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+

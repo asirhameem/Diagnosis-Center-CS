@@ -1,0 +1,62 @@
+id,name,age,sex,reference,tests,price,discount,total,date,time
+T-0001    ,asd,21,asd       ,asd,CBC, URINE, BLOOD, X-RAY,2000,10,1800,2020-10-11,22:10:00.0000000
+T-0002    ,asdf,23,Male      ,asdfs,CBC,550,0,550,2020-05-09,20:25:19.0000000
+T-0003    ,asdf,32,Male      ,asdfas,X-RAY, URINE,950,0,950,2020-05-09,19:35:30.0000000
+T-0004    ,asfd,32,Male      ,sdaf,X-RAY, BLOOD,950,10,855,2020-05-09,20:53:59.0000000
+T-0005    ,asfd,32,Male      ,sdaf,X-RAY,450,0,450,2020-05-09,20:55:15.0000000
+T-0007    ,sadf,23,Male      ,asdf,X-RAY, URINE,950,0,950,2020-05-09,21:11:16.0000000
+T-0008    ,asdf,3,Male      ,sadf,URINE, BLOOD,1000,0,1000,2020-05-09,21:13:04.0000000
+T-0009    ,adf,32,Male      ,sadf,URINE, BLOOD,1000,0,1000,2020-05-09,21:14:32.0000000
+T-0010    ,asdf,23,Male      ,asdf,X-RAY, CBC,1000,0,1000,2020-05-09,21:15:53.0000000
+T-0011    ,sadf,23,Male      ,asdf,X-RAY,450,0,450,2020-05-09,21:21:07.0000000
+T-0014    ,sadf,3,Male      ,sdfadf,CBC, X-RAY,1000,0,1000,2020-05-09,21:41:45.0000000
+T-0015    ,asdf,23,Male      ,asdfa,X-RAY,450,12,396,2020-05-09,21:46:18.0000000
+T-0016    ,asdf,23,Female    ,asdfa,X-RAY,450,0,450,2020-05-09,21:51:39.0000000
+T-0017    ,asdf,323,Female    ,asdf,X-RAY,450,0,450,2020-05-09,21:53:16.0000000
+T-0019    ,hamim,12,Male      ,asdf,X-RAY, CBC,1000,10,900,2020-05-09,20:35:07.0000000
+T-0020    ,hama,23,Female    ,asdfa,CBC, X-RAY,1000,0,1000,2020-05-09,22:41:00.0000000
+T-0021    ,sadf,23,Male      ,asdf,CBC,550,0,550,2020-05-09,22:45:24.0000000
+T-0022    ,asdf,23,Male      ,asdf,CBC,550,0,550,2020-05-09,22:47:36.0000000
+T-0023    ,asdf,3,Male      ,asdf,X-RAY,450,11,400.5,2020-05-09,22:52:05.0000000
+T-0024    ,sadf,23,Female    ,asdf,X-RAY,450,0,450,2020-05-09,22:54:01.0000000
+T-0025    ,asdf,23,Male      ,sadf,X-RAY,450,0,450,2020-05-09,23:11:43.0000000
+T-0006    ,asdfa,23,Male      ,asdf,X-RAY,450,1,445.5,2020-05-09,20:59:24.0000000
+
+
+
+
+
+
+
+
+
+SCRIPT
+*******************************************************************
+
+USE [hospital management]
+GO
+
+/****** Object:  Table [dbo].[test]    Script Date: 13/5/2020 11:35:29 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[test](
+	[id] [nchar](10) NOT NULL,
+	[name] [nvarchar](50) NOT NULL,
+	[age] [numeric](18, 0) NOT NULL,
+	[sex] [nchar](10) NOT NULL,
+	[reference] [nvarchar](50) NOT NULL,
+	[tests] [nvarchar](50) NOT NULL,
+	[price] [float] NOT NULL,
+	[discount] [numeric](18, 0) NOT NULL,
+	[total] [float] NOT NULL,
+	[date] [nvarchar](50) NOT NULL,
+	[time] [time](7) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+
