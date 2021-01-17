@@ -1,2 +1,2 @@
 # Hospital-Management-System
- C# project
+ A desktop based hospital appointment management system using C#.
